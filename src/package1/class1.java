@@ -39,7 +39,7 @@ public class class1 {
         
       List<WebElement> allop = driver.findElements(By.xpath("//ul[@class=\"G43f7e\"]/li"));
                    Thread.sleep(2000);
-
+              //parent to child jump
    for(WebElement op:allop)
    {
 	   if(op.getText().contains("iPhone 11"))
